@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+body{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100rem;
+    font-family: 'RobotoMono', arial;
+    
+}
+
+h1{
+    font-size: 4rem;
+    text-align:center;
+    text-shadow: yellow;
+    color: rgb(145, 6, 75);
+}
+a {
+    color:rgb(13, 13, 173);
+  }
+
+a:link {
+    text-decoration: none;
+    }
+
+a:hover {
+    background-color: lightgreen;
+    text-decoration: underline;
+    color:red;
+
+  }
+
+.simple_interest, .compound_interest{
+    width: 180px;
+    height: 150px;
+    padding: 4% 5%;
+    margin-top: 5rem;
+    margin-right: 5rem;
+    /* display: flex;
+    justify-content:flex-end;
+    flex-direction: column; */
+    color:red;
+    font-size: 1.5rem;
+    text-align: center;
+    border:5px solid rgba(255, 0, 0, 0.603);
+    box-shadow:5px 5px 10px rgba(194, 130, 231, 0.9);
+    background-color: rgb(14, 184, 184);
+    border-radius: 25%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* flex-end flex-start */
+    /*align-items:center;*/
+    /*flex-direction: column;*/
+}
+
+label{
+    display: block;
+    margin-top: 1rem;
+}
+
+.ci,.si{
+    width: 210px;
+    height: 400px;
+    padding: 4% 5%;
+    margin-top: 5rem;
+    margin-right: 5rem;
+    border:5px solid rgba(255, 0, 0, 0.925);
+    box-shadow:5px 5px 10px rgba(194, 130, 231, 0.9);
+    background-color: rgb(243, 169, 59);
+    border-radius: 10%;
+    text-align: center;
+    align-content: center;
+}
+
+input{
+    height: 1.5rem;
+    padding:  0.5rem;
+    border:none;
+    border-bottom: 2px solid rgb(114, 22, 235);
+}
+
+input:focus{
+    outline:none;
+    border-bottom: 2px solid rgb(89, 169, 223);
+    
+}
+
+.calculate{
+    margin: 1rem 0;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    border:none;
+    background: #00acee;
+    color: white;
+    font-size: 100%;
+}
+
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 1rem;
+    }
+    .simple_interest, .compound_interest{
+        width: 200px;
+    }
+}
+
