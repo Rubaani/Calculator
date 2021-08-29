@@ -8,22 +8,24 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>Simple Interest Calculator</h1>
+    <h1><span class="arrow-highlight">Simple Interest Calculator</span></h1>
 <div class="container" >
-    <div class="ci">
-        <p style="font-size: large;"><strong>Calculate Here!</strong></p>
-        <label for = "Principle">
-            <input type ="number" placeholder="Enter Amount">
+    <div class="si">
+        <p style="font-size: 1.6rem; padding-bottom: 2rem;"><strong>Calculate Here!</strong></p>
+        <label for = "principal">
+            <input type ="number" id="principal_si" placeholder="Enter Amount">
         </label>  
-        <label for = "Rate">
-            <input type ="number" placeholder="Enter Rate">
+        <label for = "rate">
+            <input type ="number" id="rate_si" placeholder="Enter Rate">
         </label>   
-        <label for = "Time">
-            <input type ="number" placeholder="Enter Time in years">
+        <label for = "time">
+            <input type ="number" id="time_si" placeholder="Enter Time in years">
         </label>
-        <button class="calculate">Calculate</button>    
-        <p id="output"></p>
+        <button class="calculate" id="calculate_si">Calculate</button>    
+        <p id="output_si"></p>
     </div>
     </div>
+    <script src="./index.js">
+    </script>
 </body>
 </html>
